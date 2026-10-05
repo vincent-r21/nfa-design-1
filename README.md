@@ -12,7 +12,7 @@ Problems completed: #7, #8, #9, #11, #23
 Step-by-step computation screenshots: #8, #11, #23.
 
 ## Which problem(s) gave me the most trouble?
-The problems I found hardest to understand were #8 and #23. In #8 the hard part was that one 1 has to count as both the end of the prefix 01 and the start of the suffix 10. In #23 the hard part was combining "odd length" with the single string 01 without breaking either one. I did not avoid any problem for being too hard, but I picked ones that follow the same guess-and-check pattern as #7. I used Chatgpt (an AI assistant) to explain how an NFA's guessing works, and to check my JFLAP screenshots against the expected results. I traced #7 by hand with its help to make sure I understood the method before building the others.
+The problems I found hardest to understand were #8 and #23. In #8 the hard part was that one 1 has to count as both the end of the prefix 01 and the start of the suffix 10. In #23 the hard part was combining "odd length" with the single string 01 without breaking either one. I did not avoid any problem for being too hard, but I picked ones that follow the same guess-and-check pattern as #7. I used Claude (an AI assistant) to explain how an NFA's guessing works, to generate the JFLAP files and test strings, and to check my JFLAP results against the expected outputs. I traced #7 by hand with its help to make sure I understood the method before building the others. I ran the batch tests and step-throughs in JFLAP myself.
 
 ## Which problem(s) surprised me with a "gold-st-ring"?
 
